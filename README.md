@@ -4,13 +4,13 @@
 
 ##  Model
 ### Meal
-* private int id &emsp;&emsp;&emsp;&nbsp;//餐點編號
+* private int id &emsp;&emsp;&emsp;&emsp;&nbsp;//餐點編號
 * private String name;&emsp;&emsp;&nbsp;//餐點名稱
 * private int price&emsp;&emsp;&emsp;&emsp;&emsp;//餐點價格   
 * private String description &nbsp;//餐點描述 
 
 ### Order
-* private int id; &emsp;&emsp;&emsp;&nbsp;//訂單編號
+* private int id; &emsp;&emsp;&emsp;&emsp;&nbsp;//訂單編號
 * private int totalprice; &emsp;&emsp;&nbsp;//訂單總價
 * private String waiter;&emsp;&emsp;&emsp;&nbsp;//訂單服務生
 * private List<Meal> mealList; &emsp;&emsp;&emsp;&nbsp;//訂單餐點
