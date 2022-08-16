@@ -4,10 +4,10 @@
 
 ##  Model
 ### Meal
-* private int id &emsp;&nbsp;//餐點編號
-* private String name;&emsp;&emsp;&nbsp;//餐點名稱
-* private int price&emsp;&emsp;&emsp;&emsp;&emsp;//餐點價格   
-* private String description &nbsp;//餐點描述 
+* //餐點編號 private int id 
+* //餐點名稱 private String name;
+* //餐點價格 private int price;   
+* //餐點描述 private String description; 
 
 ### Order
 * private int id; &emsp;&emsp;&emsp;&emsp;&nbsp;//訂單編號
