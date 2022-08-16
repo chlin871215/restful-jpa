@@ -4,7 +4,7 @@
 
 ##  Model
 ### Meal
-* private int id &emsp;&emsp;&emsp;&emsp;&nbsp;//餐點編號
+* private int id &emsp;&emsp;&emsp;&nbsp;&nbsp;//餐點編號
 * private String name;&emsp;&emsp;&nbsp;//餐點名稱
 * private int price&emsp;&emsp;&emsp;&emsp;&emsp;//餐點價格   
 * private String description &nbsp;//餐點描述 
