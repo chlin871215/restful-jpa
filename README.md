@@ -2,6 +2,31 @@
 
 * 以 Order & Meal 為例進行 spring-boot-restful-jpa-practice
 
+## PostMan 操作
+### Meal
+* Get All Meal </br>
+  -> 取得全部餐點
+* Get Meal By Id </br>
+  -> 取得指定餐點
+* Create Meal </br>
+  -> 新增餐點
+* Update Meal </br>
+  -> 更新餐點
+* Delete Meal </br>
+  -> 刪除餐點
+
+ ### Order
+ * Get All Order </br>
+  -> 取得全部訂單
+ * Get Order By Seq </br>
+  -> 取得指定訂單
+ * Create Order </br>
+  -> 新增訂單
+ * Update Order </br>
+  -> 更新訂單
+ * Delete Order </br>
+  -> 刪除訂單
+
 ##  Model
 ### Meal
 * 餐點編號 private int id 
