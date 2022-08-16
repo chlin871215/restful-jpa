@@ -85,6 +85,18 @@ public class OrderService {
                 return "Wrong meal description";
             }
         }
+        //check twice meal
+        for (Meal meal1 : updateOrderRequest.getMealList()) {
+            int count = 0;
+            for (Meal meal2 : updateOrderRequest.getMealList()) {
+                if (meal1.getId() == meal2.getId()) {
+                    count++;
+                }
+                if (count > 1) {
+                    return "Create same meal in order";
+                }
+            }
+        }
         //儲存
         order.setTotalPrice(updateOrderRequest.getTotalPrice());
         order.setWaiter(updateOrderRequest.getWaiter());
